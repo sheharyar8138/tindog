@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+}
+.title-btns{
+    margin: 1rem;
+}
+#img{
+    transform: rotate(25deg); 
+    padding-top: 2rem;
+    width: 16rem;
+    padding-bottom: 1rem;
+    
+}
+#firstcontainer{
+    margin: auto;
+}
+#features{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    
+}
+#awesomefont{
+    color: rgb(88, 88, 170);
+}
+#awesomefont:hover{
+    color: rgb(47, 47, 128);
+}
+.noxex{
+    margin: 4rem 0rem 4rem 0rem;
+}
+/* Testimonials */
+#testimonials{
+    background-color: blueviolet;
+    text-align: center;
+    margin: auto;
+    color: antiquewhite;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* Press */
+#press{
+    background-color: blueviolet;
+    text-align: center;
+    margin: auto;
+    color: antiquewhite;
+}
+.testimonial-text{
+    padding: 3rem;
+}
+.press-image{
+    width: 80%;
+    padding: 1rem;
+    margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .press-image{
+        width: 40%;
+        padding: 1rem;
+        margin: auto;
+       
+    }
+    
+  }
+  @media screen and (max-width: 576px) {
+    .press-image{
+        width: 20%;
+        padding: 1rem;
+        margin: auto;
+    }
+  }
+ 
